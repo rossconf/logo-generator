@@ -1,0 +1,16 @@
+{
+  "name": "RossCon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sebastian Gräßl <sebastian@validcode.me>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.6",
+    "express-handlebars": "^1.1.0",
+    "lodash": "^2.4.1"
+  }
+}
