@@ -1,10 +1,18 @@
 {
   "name": "RossCon",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generates a logo based on the specifications: https://github.com/rossconf/logo",
   "main": "app.js",
+  "private": true,
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/rossconf/logo-generator.git"
+  },
   "scripts": {
     "start": "node app.js"
+  },
+  "engines" : {
+    "node" : ">=0.10.0"
   },
   "author": "Sebastian Gräßl <sebastian@validcode.me>",
   "license": "ISC",
