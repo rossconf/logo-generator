@@ -1,0 +1,33 @@
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+}
+form input {
+  font-size: 1.5em;
+  border: 2px solid #DDD;
+  margin: 1em 0;
+  padding: .5em;
+  width: 270px;
+}
+form input:focus {
+  outline: none;
+  border: 2px solid #BBB;
+}
+#logo {
+  width: 300px;
+  height: 256px;
+  overflow: visible;
+}
+#logo span {
+  float: left;
+  display: block;
+  width:  46px;
+  height: 46px;
+  border: 2px solid #FFF;
+  background: #D2D3D4;
+}
+#logo span.present {
+  background: #FFA096;
+}
+#logo span.filler {
+  background: #FFF;
+}

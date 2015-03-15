@@ -1,7 +1,5 @@
-// SebastianGraessl
-
 function Logo() {
-  this.value;
+  this.value     = null;
   this.container = $('<div id="logo"></div>');
   this.alphabet  = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
@@ -9,10 +7,7 @@ function Logo() {
 
   this.setValue = function(value) {
     this.value = value.toUpperCase();
-
     this.replaceUmlauts();
-
-    console.log(this.value);
 
     $('#logo').empty();
 

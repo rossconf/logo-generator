@@ -5,6 +5,7 @@ var express = require('express'),
 app.engine('hbs', exphbs());
 app.set('view engine', 'hbs');
 app.use('/javascripts', express.static(__dirname + '/javascripts'));
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
   res.render('index');
