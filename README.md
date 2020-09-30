@@ -1,4 +1,4 @@
-# ROSSConf Logo generator
+# ROSSConf Logo generator - Create as you like!
 
 Generates a logo based on the specifications: https://github.com/rossconf/logo
 
